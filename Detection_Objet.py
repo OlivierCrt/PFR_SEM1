@@ -1,6 +1,6 @@
 import cv2
 import numpy as np
-
+#Version 3 avec rgb
 image = cv2.imread('python_shapes_detection_base.png')
 if image is None:
     print("L'image n'a pas pu être chargée.")
